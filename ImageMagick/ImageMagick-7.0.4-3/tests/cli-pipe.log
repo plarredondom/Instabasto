@@ -1,0 +1,61 @@
+1..17
+ok
+PASS: tests/cli-pipe.tap 1
+pnm:- PNM 70x46 70x46+0+0 8-bit sRGB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 2
+-=>/tmp/magick-25540M_Pi8w93xLyU MIFF 70x46 70x46+0+0 8-bit TrueColor sRGB 10KB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 3
+-=>/tmp/magick-255688Kv1yNHk4y0W PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 4
+ok
+PASS: tests/cli-pipe.tap 5
+/home/ubuntu/workspace/ImageMagick/ImageMagick-7.0.4-3/tests/rose.pnm PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 6
+-=>/tmp/magick-25624bch0eZncubOT MIFF 70x46 70x46+0+0 8-bit TrueColor sRGB 10KB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 7
+-=>/tmp/magick-25652xN7IUTxbQXMY PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 8
+/home/ubuntu/workspace/ImageMagick/ImageMagick-7.0.4-3/tests/rose.pnm PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.009
+ok
+PASS: tests/cli-pipe.tap 9
+/home/ubuntu/workspace/ImageMagick/ImageMagick-7.0.4-3/tests/rose.pnm PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.000
+lt-magick: no image to apply a property "%w" @ warning/property.c/GetMagickPropertyLetter/2550.
+lt-magick: unknown image property "%w" @ warning/property.c/InterpretImageProperties/3488.
+lt-magick: no image to apply a property "%h" @ warning/property.c/GetMagickPropertyLetter/2438.
+lt-magick: unknown image property "%h" @ warning/property.c/InterpretImageProperties/3488.
+lt-magick: no image to apply a property "%m" @ warning/property.c/GetMagickPropertyLetter/2469.
+lt-magick: unknown image property "%m" @ warning/property.c/InterpretImageProperties/3488.
+ok
+PASS: tests/cli-pipe.tap 10
+ok
+PASS: tests/cli-pipe.tap 11
+lt-magick: no image to apply a property "%w" @ warning/property.c/GetMagickPropertyLetter/2550.
+lt-magick: unknown image property "%w" @ warning/property.c/InterpretImageProperties/3488.
+lt-magick: no image to apply a property "%h" @ warning/property.c/GetMagickPropertyLetter/2438.
+lt-magick: unknown image property "%h" @ warning/property.c/InterpretImageProperties/3488.
+lt-magick: no image to apply a property "%m" @ warning/property.c/GetMagickPropertyLetter/2469.
+lt-magick: unknown image property "%m" @ warning/property.c/InterpretImageProperties/3488.
+/home/ubuntu/workspace/ImageMagick/ImageMagick-7.0.4-3/tests/rose.pnm PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 12
+-=>/tmp/magick-25736CQjnWOub0ZYe PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.009
+ok
+PASS: tests/cli-pipe.tap 13
+fd:5 PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 14
+/home/ubuntu/workspace/ImageMagick/ImageMagick-7.0.4-3/tests/rose.pnm PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 15
+/home/ubuntu/workspace/ImageMagick/ImageMagick-7.0.4-3/tests/rose.pnm PPM 70x46 70x46+0+0 8-bit sRGB 9.67KB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 16
+pnm:- PNM 70x46 70x46+0+0 8-bit sRGB 0.000u 0:00.000
+ok
+PASS: tests/cli-pipe.tap 17
