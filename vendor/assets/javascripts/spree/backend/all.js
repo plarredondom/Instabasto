@@ -12,3 +12,4 @@
 
 //= require spree/backend/spree_bank_transfer
 //= require spree/backend/spree_variant_options
+//= require spree/backend/spree_delivery_slots

@@ -27,6 +27,14 @@ GIT
     spree_variant_options (3.1.0)
       spree_core (~> 3.1.0.beta)
 
+GIT
+  remote: https://github.com/vinsol-spree-contrib/spree-delivery-slots
+  revision: 80d5f87320b54a20599f280a7ef492ab3f59d13b
+  branch: 3-1-stable
+  specs:
+    spree_delivery_slots (3.1.0)
+      spree_core (~> 3.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -370,6 +378,7 @@ DEPENDENCIES
   spree (~> 3.1.0)
   spree-bank-transfer!
   spree_auth_devise (~> 3.1.0)
+  spree_delivery_slots!
   spree_gateway (~> 3.1.0)
   spree_i18n!
   spree_variant_options!
