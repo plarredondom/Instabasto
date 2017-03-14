@@ -1,0 +1,16 @@
+{
+  "name": "spree-tienda-2",
+  "description": "Archivo app.json para describir el ambiente y los adicionales necesarios para correr la aplicacion",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
