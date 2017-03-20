@@ -448,7 +448,7 @@ es:
     back_to_store: Volver a la Tienda
     back_to_users_list: Volver a Listado de Usuarios
     backorderable: Devuelto
-    backorderable_default:
+    backorderable_default: Entrega retrasada
     backordered:
     backorders_allowed: Permitida la Devolucion
     balance_due: Saldo adeudado
@@ -1016,7 +1016,7 @@ es:
     promotion_uses:
     promotionable:
     promotions: Promociones
-    propagate_all_variants:
+    propagate_all_variants: Propagar productos de otras Locaciones
     properties: Propiedades
     property: Propiedad
     prototype: Prototipo
@@ -1305,7 +1305,7 @@ es:
     update: Actualizar
     updating: Actualizando
     usage_limit: Límite de Uso
-    use_app_default:
+    use_app_default: Usar opcion por defecto
     use_billing_address: Usa la Dirección de Facturación
     use_new_cc: Usa una nueva tarjeta
     use_s3: Usa Amazon S3 para las Imágenes

@@ -8,6 +8,10 @@ gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
 gem 'spree-bank-transfer', require: 'spree_bank_transfer', github: 'vinsol-spree-contrib/spree_bank_transfer', branch: '3-1-stable'
 gem 'spree_variant_options', github: 'vinsol-spree-contrib/spree_variant_options', branch: '3-1-stable'
 gem 'spree_delivery_slots', git: 'https://github.com/vinsol-spree-contrib/spree-delivery-slots', branch: '3-1-stable'
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: 'master'
+
+gem 'datashift'
+gem 'datashift_spree'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
