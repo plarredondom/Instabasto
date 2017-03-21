@@ -337,6 +337,7 @@ es:
     accepted:
     account: Cuenta
     account_updated: Cuenta actualizada
+    account_no: Numero de Cuenta
     action: Acción
     actions:
       cancel: Cancelar
@@ -370,6 +371,7 @@ es:
     add_to_cart: Añadir al carrito
     add_variant: Añadir variante
     additional_item: Coste de artículo adicional
+    additional_details: Detalles adicionales
     address1: Dirección
     address2: Dirección (cont.)
     adjustable:
@@ -452,6 +454,7 @@ es:
     backordered:
     backorders_allowed: Permitida la Devolucion
     balance_due: Saldo adeudado
+    bank_name: Nombre del Banco
     base_amount:
     base_percent:
     bill_address: Dirección de facturación
@@ -502,6 +505,7 @@ es:
     configurations: Configuraciones
     confirm: Confirmar
     confirm_delete: Confimar borrado
+    confirm_details_submit: Enviar detalles
     confirm_password: Confirmación del Password
     continue: Continuar
     continue_shopping: Continuar compra
@@ -580,6 +584,7 @@ es:
     deleted_variants_present:
     delivery: Entregar
     depth: Ancho
+    deposited_on: Fecha de la transferencia
     description: Descripción
     destination: Destino
     destroy: Eliminar
@@ -874,7 +879,7 @@ es:
         thanks: "¡Gracias por su compra!"
         total: Total
     order_not_found: No pudimos encontrar tu pedido. Por favor intenta esta acción de nuevo
-    order_number:
+    order_number: Numero de Pedido
     order_processed_successfully: Tu pedido ha sido procesado con éxito
     order_resumed:
     order_state:
@@ -916,6 +921,7 @@ es:
     payment_processing_failed: El pago no pudo ser procesado, por favor comprueba los detalles que has introducido
     payment_processor_choose_banner_text: Si necesitas ayuda a la hora de escoger un procesador de pago, por favor visita
     payment_processor_choose_link: nuestra pagina de pagos
+    payment_successfully_updated: La informacion de la Transferencia ha sido enviada exitosamente
     payment_state: Estado del Pago
     payment_states:
       balance_due: Saldo deudor
@@ -1290,6 +1296,7 @@ es:
     tracking_url: URL de Tracking
     tracking_url_placeholder: p. ej. http://quickship.com/package?num=:tracking
     transaction_id:
+    transaction_reference_no: Numero de refrencia
     transfer_from_location: Transferido desde
     transfer_stock: Transferencia de Stock
     transfer_to_location: Transferido a
@@ -1341,3 +1348,4 @@ es:
   time:
     formats:
       frame_time: '%I:%M %P'
+  how_bank_transfer_works: Como funciona la transferencia Bancaria

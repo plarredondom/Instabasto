@@ -46,19 +46,19 @@
 
               <% if rate.shipping_method.is_delivery_slots_enabled? %>
                 <ul class="list-group delivery-slots <%= "delivery_slots_#{ rate.shipping_method.id }" %>">
-                  <!-- 
+                  
                   <li class="list-group-item delivery-slot">
                     <label>
                       <%= ship_form.radio_button :delivery_slot_id, nil, checked: !ship_form.object.delivery_slot_id? %>
-                      <span><%= 'Any time' %></span>
+                      <span><%= 'Cualquier momento en las proximas 24 horas' %></span>
                     </label>
                   </li>
-                  -->
+                  
                   <% rate.shipping_method.delivery_slots.order(:start_time).each do |delivery_slot| %>
                     <li class="list-group-item delivery-slot">
                       <label>
                         <%= ship_form.radio_button :delivery_slot_id, delivery_slot.id %>
-                        <span><%= delivery_slot.time_frame %></span>
+                        <span><%= 'El mismo dia de su pedido en el siguiente rango de tiempo:' %> <%= delivery_slot.time_frame %></span>
                       </label>
                     </li>
                   <% end %>
