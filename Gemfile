@@ -5,8 +5,11 @@ gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 gem 'globalize', '~> 5.0.0'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
+
 #gem 'spree-bank-transfer', require: 'spree_bank_transfer'
-gem 'spree-bank-transfer', require: 'spree_bank_transfer', github: 'vinsol-spree-contrib/spree_bank_transfer', branch: '3-1-stable'
+#gem 'spree-bank-transfer', require: 'spree_bank_transfer', github: 'vinsol-spree-contrib/spree_bank_transfer', branch: '3-1-stable'
+gem 'spree-bank-transfer', require: 'spree_bank_transfer', github: 'plarredondom/spree_bank_transfer', branch: 'master'
+
 gem 'spree_variant_options', github: 'vinsol-spree-contrib/spree_variant_options', branch: '3-1-stable'
 gem 'spree_delivery_slots', git: 'https://github.com/vinsol-spree-contrib/spree-delivery-slots', branch: '3-1-stable'
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: 'master'
