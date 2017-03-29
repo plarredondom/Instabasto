@@ -14,6 +14,7 @@ gem 'spree_variant_options', github: 'vinsol-spree-contrib/spree_variant_options
 gem 'spree_delivery_slots', git: 'https://github.com/vinsol-spree-contrib/spree-delivery-slots', branch: '3-1-stable'
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: 'master'
 gem 'spree_html_invoice' , github: 'vinsol-spree-contrib/spree-html-invoice', branch: '3-1-stable'
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: 'master'
 
 #gem 'datashift'
 #gem 'datashift_spree'

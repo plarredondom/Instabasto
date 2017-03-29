@@ -1,0 +1,34 @@
+<h4>COMO FUNCIONA LA TRANSFERENCIA BANCARIA?</h4>
+<b>Pasos:</b>
+<ol>
+  <li>Depositar el total de pedidos en una de las cuentas bancarias mencionadas a continuación. Después de este pago un número de referencia de pago será proporcionado por el banco.
+    <% if (banks = Spree::Bank.active).any? %>
+      <div style="padding:20px 0">
+      <table border="1" align='center' width="80%">
+        <tr>
+          <th><%= Spree.t(:bank_name) %></th>
+          <th><%= Spree.t(:account_no) %></th>
+          <th><%= Spree.t(:additional_details) %></th>
+        </tr>
+        <% banks.each do |bank| %>
+          <tr>
+            <td><center><%= bank.name %></center></td>
+            <td><center><%= bank.account_no %></center></td>
+            <td><center><%= bank.additional_details %></center></td>
+          </tr>
+        <% end %>
+      </table>
+      </div>
+    <% end %>
+  </li>
+  <li>Introduzca este número de referencia de pago en la página Detalles del pedido siguiendo los pasos siguientes:
+    <ol style="padding:10px 0 0 20px" type='a'>
+      <li>Vaya a la página "Mi cuenta".</li>
+      <li>Seleccione el Pedido para el que desea proporcionar detalles.</li>
+      <li>Haga clic en el enlace "Agregar detalles" visible en la columna "Información de pago".</li>
+      <li>Proporcione los detalles del pago y haga click en continuar.</li>
+      <br><br>
+      <%= image_tag 'payment_details.png' %>
+    </ol>
+  </li>
+</ol>

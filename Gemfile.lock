@@ -27,6 +27,14 @@ GIT
       spree_backend (>= 3.1.0, < 4.0)
 
 GIT
+  remote: git://github.com/spree-contrib/spree_static_content.git
+  revision: 41ea4c079bf97caef83f2f36fb9f683757468a14
+  branch: master
+  specs:
+    spree_static_content (3.2.0.alpha)
+      spree_core (>= 3.1.0, < 4.0)
+
+GIT
   remote: git://github.com/vinsol-spree-contrib/spree-html-invoice.git
   revision: f3f5f912e6ab92e1068029344a973faca0489806
   branch: 3-1-stable
@@ -399,6 +407,7 @@ DEPENDENCIES
   spree_html_invoice!
   spree_i18n!
   spree_mail_settings!
+  spree_static_content!
   spree_variant_options!
   spring
   turbolinks

@@ -1,0 +1,29 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
+  <head>
+  <meta charset="utf-8">
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
+  <%= stylesheet_link_tag  "landing-page.css", "bootstrap.min.css"%>
+  <%= javascript_include_tag "jquery.js", "bootstrap.min.js" %>
+ 
+ 
+    <%= yield :head %>
+    
+
+  </head>
+
+  <body>
+    
+    <div>
+      <%= yield :body%>
+      
+    </div>
+
+        
+  </body>
+</html>

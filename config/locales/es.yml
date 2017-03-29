@@ -288,6 +288,7 @@ es:
       confirmed: Tu cuenta fue confirmada satisfactoriamente. Ya estás registrado.
       send_instructions: Recibirás un email con instrucciones sobre como confirmar tu cuenta en breves minutos.
     failure:
+      already_authenticated: Ya iniciaste sesion!
       inactive: Tu cuenta no fue activada todavía.
       invalid: Email o password inválido.
       invalid_token: Cadena de autenticación inválida.
@@ -1132,7 +1133,7 @@ es:
     ship_total: Total de envío
     shipment: Envío
     shipment_adjustments:
-    shipment_details:
+    shipment_details: Detalles de envio
     shipment_mailer:
       shipped_email:
         dear_customer: Estimado Cliente,\n
