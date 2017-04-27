@@ -21,9 +21,10 @@ Rails.application.config.assets.precompile += %w( delivery.jpg )
 Rails.application.config.assets.precompile += %w( waiting_line.jpg )
 Rails.application.config.assets.precompile += %w( delivery-man.jpg )
 
-Rails.application.config.assets.precompile += %w( jquery.js )
-Rails.application.config.assets.precompile += %w( bootstrap.min.css )
-Rails.application.config.assets.precompile += %w( bootstrap.min.js )
-Rails.application.config.assets.precompile += %w( landing-page.css )
+Rails.application.config.assets.precompile += %w( spree/frontend/jquery.js )
 
+Rails.application.config.assets.precompile += %w( spree/frontend/bootstrap.min.js )
+
+Rails.application.config.assets.precompile += %w( spree/frontend/landing-page.css )
+Rails.application.config.assets.precompile += %w( spree/frontend/bootstrap.min.css )
 

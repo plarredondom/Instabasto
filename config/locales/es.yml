@@ -332,6 +332,7 @@ es:
         other: "%{count} errores evitaron que este %{resource} fuese grabado:"
   spree:
     abbreviation: Abreviatura
+    about_us: Acerca de Nosotros
     accept:
     acceptance_errors:
     acceptance_status:

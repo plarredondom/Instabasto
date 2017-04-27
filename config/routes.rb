@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
   
-  get 'landing/index', to: 'landing#index', as: 'landing'
+  #root 'spree/landing#index'
+  get '/landing/index', to: 'spree/landing#index', as: 'landing'
 
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
   # If you would like to change where this engine is mounted, simply change the :at option to something different.
-  #
   
-  root 'landing#index'
+  
+  
   
   # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
   mount Spree::Core::Engine, at: '/'
@@ -16,13 +17,14 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  # root 'landing#index'
+  
   
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   
   get 'spree/home' => 'spree/home#index'
+  
   
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
