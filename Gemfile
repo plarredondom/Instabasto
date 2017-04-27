@@ -19,6 +19,9 @@ gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch
 #gem 'datashift'
 #gem 'datashift_spree'
 
+#font-awesome gem
+#gem 'font-awesome-sass', '~> 4.7.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 

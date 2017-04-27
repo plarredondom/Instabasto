@@ -1331,9 +1331,9 @@ es:
       must_be_non_negative: debe ser un valor no negativo
       unpaid_amount_not_zero:
     value: Valor
-    variant: Variante
+    variant: Opción
     variant_placeholder: Escoge una variante
-    variants: Variantes
+    variants: Opciones
     version: Versión
     void: Anular
     weight: Peso

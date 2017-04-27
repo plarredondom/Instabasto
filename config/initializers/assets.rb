@@ -27,4 +27,7 @@ Rails.application.config.assets.precompile += %w( spree/frontend/bootstrap.min.j
 
 Rails.application.config.assets.precompile += %w( spree/frontend/landing-page.css )
 Rails.application.config.assets.precompile += %w( spree/frontend/bootstrap.min.css )
+Rails.application.config.assets.precompile += %w( spree/frontend/frontend_bootstrap.css )
+
+
 
